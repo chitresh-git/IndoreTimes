@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+#nav{
+  
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    /* font-family: 'Pirata One', cursive; */
+  
+}
+#title{
+  
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-family:'Times New Roman', Times, serif; */
+    font-family: 'Pirata One', cursive;
+  
+}
+
+
+#body{
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 5vw;
+
+}
+
+#card{
+    /* border: 0.1px solid black; */
+    box-shadow: 1px 1px 30px grey;
+    transition:  box-shadow 0.3s,transform 0.2s;
+    border-radius: 20px ;
+}
+#card:hover{
+box-shadow: 10px 10px 30px black;
+color:blue;
+transform: scale(1.01);
+}
+
+#itemlink{
+    text-decoration: none;
+    color: black;
+
+}
